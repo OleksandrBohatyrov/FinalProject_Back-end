@@ -11,6 +11,7 @@ namespace FinalProject_Back_end.Models
         public DbSet<Order> Orders { get; set; }
         public DbSet<Transaction> Transactions { get; set; }
 
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Order>()
